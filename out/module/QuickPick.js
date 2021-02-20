@@ -38,11 +38,11 @@ class QuickPick extends Module_1.Module {
     }
     likeOrDislike() {
         return __awaiter(this, void 0, void 0, function* () {
-            const res = yield vscode.window.showInformationMessage('I\'m Ben!?...', 'Like', 'Dislike');
+            const res = yield vscode.window.showInformationMessage('I\'m a sample extension...', 'Like', 'Dislike');
             if (res == 'Like')
-                vscode.window.showInformationMessage(':-)');
+                vscode.window.showInformationMessage('😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀');
             else if (res == 'Dislike')
-                vscode.window.showInformationMessage(':-(');
+                vscode.window.showInformationMessage('😥😥😥😥😥😥😥😥😥😥😥😥😥😥😥😥😥😥😥😥');
         });
     }
 }

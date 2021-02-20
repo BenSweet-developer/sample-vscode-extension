@@ -39,8 +39,8 @@ export class QuickPick extends Module {
     }
 
     private async likeOrDislike(): Promise<void> {
-        const res = await vscode.window.showInformationMessage('I\'m Ben!?...', 'Like', 'Dislike') as tLikeOrDislike;
-        if (res == 'Like') vscode.window.showInformationMessage(':-)');
-        else if (res == 'Dislike') vscode.window.showInformationMessage(':-(');
+        const res = await vscode.window.showInformationMessage('I\'m a sample extension...', 'Like', 'Dislike') as tLikeOrDislike;
+        if (res == 'Like') vscode.window.showInformationMessage('😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀');
+        else if (res == 'Dislike') vscode.window.showInformationMessage('😥😥😥😥😥😥😥😥😥😥😥😥😥😥😥😥😥😥😥😥');
     }
 }
